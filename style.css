@@ -39,8 +39,9 @@ body{
     border-radius: 8px;
     box-shadow: 8px 5px 12px rgba(0, 0, 0, 0.1);
 }
-.figure{
-    max-width: 286px;
+
+.figure img{
+    width: 285px;
 }
 .figure img{
     border-top-left-radius: 8px;
