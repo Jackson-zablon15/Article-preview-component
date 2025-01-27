@@ -137,6 +137,14 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+svg{
+    background-color: var(--Light_Grayish_Blue);
+    fill:#6E8098;
+}
+svg:hover{
+    background-color: var(--Very_Dark_Grayish_Blue);
+    fill: #ffffff;
+}
 .wrapper > .icon:hover{
     background-color: var(--Very_Dark_Grayish_Blue);
 }
