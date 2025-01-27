@@ -27,8 +27,8 @@ body{
     align-items: center;
     font-family: Manrope , sans-serif;
     max-width: 1440px;
-    height:800px;
-    background-color: var(--Grayish_Blue);
+    min-height:50rem;
+    background-color: var(--Light_Grayish_Blue);
 }
 .container{
     width: 100%;
@@ -63,7 +63,7 @@ body{
     margin-bottom: 1.2rem;
 }
 
-article{
+.wrapper{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,11 +114,12 @@ article{
     display: flex;
     gap: 1rem;
 }
-.avatar-image img{
+.avatar-image{
     border-radius: 50%;
 }
-.avatar-info h1{
+.avatar-info span{
     font-size: 1rem;
+    font-weight: 700;
     color: var(--Very_Dark_Grayish_Blue);
 }
 .avatar-info p{
@@ -136,7 +137,7 @@ article{
     border-radius: 50%;
     cursor: pointer;
 }
-article > .icon:hover{
+.wrapper > .icon:hover{
     background-color: var(--Very_Dark_Grayish_Blue);
 }
 @media only screen and (max-width:768px) {
@@ -171,8 +172,8 @@ article > .icon:hover{
         width: 327px;
         margin-left: -2rem;
         left: 0;
-        top: 6px;
-        padding: 0.8rem 0px;
+        top: 4px;
+        padding: 0.85rem 0px;
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
@@ -181,6 +182,7 @@ article > .icon:hover{
     }
     .tooltip-container img:last-of-type{
         display: block;
+        margin-left: 40px;
         border-radius: 50%;
     }
     .tooltip-container img:last-of-type:hover{
